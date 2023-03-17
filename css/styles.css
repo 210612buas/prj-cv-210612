@@ -14,15 +14,15 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #963552;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #e294ac;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #c9476e;
 }
 
 /* Styles for lists in the document */
@@ -48,4 +48,31 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.title-font {
+	font-family: 'Cinzel', serif !important; 
+    color: white;
+
+}
+
+.white-text {
+	color:floralwhite;
+}
+
+a:link{
+	color:#e294ac;
+}
+
+a:visited{
+	color:hotpink;
+}
+
+a:hover{
+	color: black;
+	text-shadow: 2px 2px 2px #e294ac;
+}
+
+.language-progress{
+	background-color:#e294ac !important;
 }
